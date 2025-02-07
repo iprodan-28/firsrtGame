@@ -102,7 +102,6 @@ while running:
                     missed_circles += 1
                     text_surface_1 = update_missed_circles()
                     circles.pop(0)
-                    print(missed_circles)
                     pygame.display.update()
         screen.fill((7, 171, 230))
         screen.blit(square, (0, 450))
